@@ -252,6 +252,23 @@ h2 {
     grid-template-rows: max-content;
     column-gap: 30px;
     row-gap: 30px;
+    position: relative;
+}
+
+.business_arrow_left {
+    position: absolute;
+    width: 75px;
+    height: auto;
+    top: 45.5%;
+    left: -100px;
+}
+
+.business_arrow_right {
+    position: absolute;
+    width: 75px;
+    height: auto;
+    top: 45.5%;
+    right: -100px;
 }
 
 .business_type {
@@ -354,6 +371,7 @@ h2 {
     grid-template-rows: max-content;
     column-gap: 25px;
     row-gap: 25px;
+    position: relative;
 }
 
 .services_article {
